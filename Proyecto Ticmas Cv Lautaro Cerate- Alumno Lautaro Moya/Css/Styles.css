@@ -1,0 +1,79 @@
+*{box-sizing:border-box;
+	; 
+font-family: 'Shantell Sans', cursive;
+
+}
+body{background: #A4A4A4;
+background: -moz-linear-gradient(left, #A4A4A4 0%, #CBC6C9 50%, #755151 100%);
+background: -webkit-linear-gradient(left, #A4A4A4 0%, #CBC6C9 50%, #755151 100%);
+background: linear-gradient(to right, #A4A4A4 0%, #CBC6C9 50%, #755151 100%);
+
+}
+
+
+
+
+.img1{width: 155px;border-bottom: 3px outset rgba(164,9,4,0.82);}
+.img2{width: 150px;border-bottom: 3px outset rgba(164,9,4,0.82);}
+.img3{width: 150px;border-bottom: 3px outset rgba(164,9,4,0.82);}
+
+.claseMoyaFoto{ margin-left:540px ; width: 250px ; border: 3px outset rgba(164,9,4,0.65);}
+.claseTitulo{margin-left:570px; font-family: 'Oswald', sans-serif; }
+
+
+
+
+
+	.claseNav{border-top: 3px outset rgba(164,9,4,0.65); margin-left:510px; margin-right: 510px; padding-bottom: 10px; padding-top: 10px;  -webkit-box-shadow: 1px -4px 15px 5px #000000; 
+box-shadow: 1px -4px 15px 5px #000000;}
+	.claseNav2{border-top: 3px outset rgba(164,9,4,0.65); margin-left:470px; margin-right: 470px; padding-left: 35px;  padding-bottom: 10px; padding-top: 10px;  -webkit-box-shadow: 1px -4px 15px 5px #000000; 
+box-shadow: 1px -4px 15px 5px #000000;}
+
+		.claseHorizontal{display:inline; border: 1px outset rgba(164,57,35,0.46); margin-left:10px; }
+		.claseHorizontal2{display:inline; border: 1px outset rgba(164,57,35,0.46); margin-right:5px; text-align:justify-all; }
+
+.myButton {
+color: rgb(0, 0, 0); font-size: 12px; line-height: 12px; padding: 6px; border-radius: 3px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(164, 164, 164) 0%, rgb(203, 198, 201) 50%, rgb(117, 81, 81) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 1px outset rgba(164, 57, 35, 0.46); display: inline-block;}
+.myButton:hover {
+background: #A4A4A4; }
+.myButton:active {
+background: #755151; }
+
+
+
+
+
+
+.claseRecuadro{border-bottom: 3px outset rgba(164,9,4,0.82); -webkit-box-shadow: 1px -4px 15px 5px #5E5E5E; 
+box-shadow: 1px -4px 15px 5px #5E5E5E; 	font-family: 'Open Sans', sans-serif;
+	color: black;}
+
+
+
+section{-moz-transform: translate(50px, 0px);
+-webkit-transform: translate(50px, 0px);
+-o-transform: translate(50px, 0px);
+-ms-transform: translate(50px, 0px);
+transform: translate(50px, 0px);
+
+margin-right:100px;}
+
+
+
+
+
+
+
+	 .ir-arriba{
+	 	position: fixed;
+	 	z-index: 1;
+	 	right: 5px;
+	 	bottom: 5px;
+        background-image:url('https://cdn-icons-png.flaticon.com/512/6941/6941680.png');
+        background-repeat:no-repeat;
+        height:40px;
+        width:40px;
+        background-size: 55px 55px;
+        background-position:center;
+        display: none;
+	 }
